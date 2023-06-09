@@ -1,0 +1,214 @@
+.dashboardcon {
+  background-color: #2d2013;
+  min-height: 1440px;
+}
+.dash_head_con {
+  display: flex;
+}
+.center_con_dash h1 {
+  margin-top: 5%;
+  text-align: center;
+  color: white;
+}
+.center_con_dash p {
+  color: white;
+  margin-top: 3%;
+}
+.first_line,
+.second_line {
+  border: 0.2px solid white;
+  width: 90%;
+  margin: 0 auto;
+}
+.searchmealbar {
+  /* border: 2px solid red; */
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 22%;
+  padding: 0.3%;
+  outline: none;
+  font-weight: 900;
+  font-size: 1.2em;
+  /* margin: auto; */
+}
+.searchmealcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bisearch_spn {
+  width: 2em;
+  height: 2.1245em;
+  background-color: antiquewhite;
+  padding-left: 0.3%;
+  padding-top: 0.4%;
+  cursor: pointer;
+}
+.bisearch_spn:hover {
+  transform: translateY(1px);
+}
+.conhead {
+  text-align: center;
+  color: white;
+  font-size: 1.6em;
+  font-family: 'Montserrat';
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: block;
+}
+.Meals_Coloumn {
+  width: 90%;
+  margin: auto;
+}
+.Meals_Coloumn div {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2em;
+  row-gap: 2em;
+}
+.filbylettercon h4 {
+  display: block;
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Montserrat';
+  text-align: center;
+  margin-top: 3%;
+}
+.spn_let {
+  color: rgb(163, 119, 68);
+}
+.slach {
+  color: rgb(163, 119, 68);
+}
+.spn_let_con span {
+  margin-left: 1%;
+  cursor: pointer;
+}
+.spn_let_con {
+  margin-left: 10%;
+}
+.spn_let_con span button {
+  margin-left: 1%;
+  cursor: pointer;
+}
+.selectedmealscon img {
+  width: 50%;
+}
+.selectedmealscon {
+  display: flex;
+  margin-left: 5%;
+}
+.selmealcon h1 {
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Montserrat';
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.selectedmealscon div {
+  padding: 2%;
+      width: 100%;
+}
+.selectedmealscon div h3 {
+  margin-bottom: 5%;
+}
+.selectedmealscon h4 {
+  color: white;
+  font-size: 1.3em;
+  font-family: 'Montserrat';
+  text-align: center;
+  margin-bottom: 5%;
+}
+.selectedmealscon p {
+  color: rgb(129, 121, 121);
+  font-size: 1.2em;
+  font-family: 'Montserrat';
+  /* text-align: center; */
+}
+.checkoutbtn {
+  background-color: rgb(201, 23, 23);
+  padding: 1% 3%;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: rgb(157, 181, 202);
+  font-family: 'Montserrat';
+  cursor: pointer;
+  margin-top: 2em;
+}
+.checkoutbtn:hover {
+  transform: translateY(2px);
+}
+.shippingcon {
+  border: 1px solid rgb(145, 28, 28);
+  width: 350px;
+  margin: 0 auto;
+  position: absolute;
+  margin-top: -50%;
+  margin-left: 37%;
+  padding: 2%;
+  border-radius: 10px;
+  background-color: rgb(187, 136, 74);
+}
+.shippingcon p:nth-child(1),
+.shippingcon p:nth-child(3),
+.shippingcon p:nth-child(5),
+.shippingcon p:nth-child(7) {
+  color: rgb(185, 0, 0);
+  font-size: 1.2em;
+  font-weight: 700;
+  font-family: 'Montserrat';
+}
+.shippingcon textarea:nth-child(2) {
+  width: 80%;
+  margin-top: 1%;
+  outline: none;
+  padding-left: 1%;
+}
+.shippingcon input:nth-child(4) {
+  outline: none;
+  width: 80%;
+  padding-left: 1%;
+}
+.savebtn {
+  margin-top: 2%;
+  padding: 1% 2%;
+}
+.savebtn:hover {
+  cursor: pointer;
+}
+.alldetcon {
+  /* position: absolute; */
+  /* top: 66%;
+  left: 10%; */
+  margin-left: 5%;
+}
+.selectedmealscon h3 {
+   color: rgb(180, 172, 172);
+  font-size: 1.6em;
+  font-weight: 700;
+  font-family: 'Montserrat';
+  margin-bottom: 5%;
+}
+.selecmealsinnercon {
+  padding-left: 10%;
+}
+.orderdetailscon h5 {
+   color: rgb(180, 172, 172);
+  font-size: 1.3em;
+  font-weight: 700;
+  font-family: 'Montserrat';
+}
+.orderdetailscon  h5 span {
+   font-size: 0.8em;
+}
+.serbynane {
+     display: block;
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Montserrat';
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 2%;
+}

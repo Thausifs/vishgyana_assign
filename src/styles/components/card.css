@@ -1,0 +1,14 @@
+.mealscon img {
+    width: 100%;
+    height: 17em;
+    cursor: pointer;
+}
+.mealscon {
+    width: 17em;
+}
+.mealscon p {
+    font-size: 1.3em;
+      font-family: 'Montserrat';
+       color: white;
+       text-align: center;
+}

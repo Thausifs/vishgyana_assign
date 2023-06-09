@@ -1,0 +1,35 @@
+.headercon ul {
+    display: flex;
+    list-style: none;
+}
+.headercon ul li:nth-child(1){
+    flex: 6;
+}
+.headercon ul li:nth-child(2), .headercon ul li:nth-child(3) , .headercon ul li:nth-child(4) , .headercon ul li:nth-child(5) , .headercon ul li:nth-child(6) , .headercon ul li:nth-child(7){
+    flex: 0.5;
+}
+.headercon ul li:nth-child(2) button {
+    background-color: #c52d2f;
+    width: 60px;
+    height: 25px;
+    border: none;
+    color: white;
+}
+.headercon {
+        background-color: #23180d;
+        padding: 1%;
+}
+.headercon ul li:nth-child(3) button , .headercon ul li:nth-child(4) button {
+    background-color: #23180d;
+    color: white;
+    padding: 1% 3%;
+    border: none;
+}
+.headercon ul li:nth-child(3) button:hover ,.headercon ul li:nth-child(4) button:hover {
+     background-color: #c52d2f;
+     
+}
+.searchbar {
+    outline: none;
+    padding-left: 2%;
+}

@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+* {
+  /* background: #fff; */
+  font-family: 'Open Sans', sans-serif; 
+  /* color: #fff; */
+  line-height: 22px;
+}
